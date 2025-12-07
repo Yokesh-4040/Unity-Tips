@@ -1,4 +1,4 @@
-# UNITY TIPS 001/100
+# #UNITY TIPS 001/100
 
 # Avoiding Large Switch-Case Blocks in Unity: A Cleaner Architectural Approach
 
