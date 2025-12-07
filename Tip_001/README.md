@@ -138,14 +138,6 @@ This pattern remains relevant across Unity development—whether you're building
 * **Ability to add new behaviours without modifying existing code**
 
 These improvements align with long-term maintainability, especially as projects scale.
-
----
-
-## External Reference
-
-Full example available in GitHub Gist:
-[https://gist.github.com/Yokesh-4040/88975cdfffafb84455cb9be031712027](https://gist.github.com/Yokesh-4040/88975cdfffafb84455cb9be031712027)
-
 ---
 
 *Credits to Binary Impact for the developer card inspiring this write‑up.*
