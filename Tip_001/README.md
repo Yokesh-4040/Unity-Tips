@@ -27,33 +27,33 @@ Unity projects—whether tools, systems, or interactive applications—benefit f
 
 Instead of branching logic, define a base class representing the general behaviour and create subclasses that implement specific versions of that behaviour.
 
-Below is a generic example demonstrating this transformation.
+Below is a simple example using **Shapes**.
 
 ---
 
 ## Switch-Case Example (Less Scalable)
 
 ```csharp
-public class NotificationManager_SwitchExample : MonoBehaviour
+public class ShapeDrawer : MonoBehaviour
 {
-    public void SendNotification(string type, string message)
+    public void DrawShape(string shapeType)
     {
-        switch (type)
+        switch (shapeType)
         {
-            case "Email":
-                Debug.Log($"Sending Email: {message}");
+            case "Circle":
+                Debug.Log("Drawing a Circle ⚪");
                 break;
 
-            case "SMS":
-                Debug.Log($"Sending SMS: {message}");
+            case "Square":
+                Debug.Log("Drawing a Square ⬜");
                 break;
 
-            case "Push":
-                Debug.Log($"Sending Push Notification: {message}");
+            case "Triangle":
+                Debug.Log("Drawing a Triangle 🔺");
                 break;
 
             default:
-                Debug.Log("Unknown Notification Type");
+                Debug.Log("Unknown Shape ❓");
                 break;
         }
     }
@@ -65,63 +65,63 @@ public class NotificationManager_SwitchExample : MonoBehaviour
 ## OOP-Based Approach (More Scalable)
 
 ```csharp
-public abstract class NotificationService
+public abstract class Shape
 {
-    public abstract void Send(string message);
+    public abstract void Draw();
 }
 ```
 
-### Email Notification
+### Circle
 
 ```csharp
-public class EmailNotification : NotificationService
+public class Circle : Shape
 {
-    public override void Send(string message)
+    public override void Draw()
     {
-        Debug.Log($"Sending Email: {message}");
+        Debug.Log("Drawing a Circle ⚪");
     }
 }
 ```
 
-### SMS Notification
+### Square
 
 ```csharp
-public class SMSNotification : NotificationService
+public class Square : Shape
 {
-    public override void Send(string message)
+    public override void Draw()
     {
-        Debug.Log($"Sending SMS: {message}");
+        Debug.Log("Drawing a Square ⬜");
     }
 }
 ```
 
-### Push Notification
+### Triangle
 
 ```csharp
-public class PushNotification : NotificationService
+public class Triangle : Shape
 {
-    public override void Send(string message)
+    public override void Draw()
     {
-        Debug.Log($"Sending Push Notification: {message}");
+        Debug.Log("Drawing a Triangle 🔺");
     }
 }
 ```
 
-### Notification Manager
+### Shape Manager
 
 ```csharp
-public class NotificationManager : MonoBehaviour
+public class ShapeManager : MonoBehaviour
 {
-    private NotificationService _currentService;
+    private Shape _currentShape;
 
-    public void SetService(NotificationService service)
+    public void SetShape(Shape shape)
     {
-        _currentService = service;
+        _currentShape = shape;
     }
 
-    public void Send(string message)
+    public void Draw()
     {
-        _currentService?.Send(message);
+        _currentShape?.Draw();
     }
 }
 ```
