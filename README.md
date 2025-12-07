@@ -6,14 +6,15 @@ In this repository, I will be sharing a new Unity tip every day for 100 days. Th
 
 ## Structure
 
-Each day has its own folder named `Day_XXX` containing a `README.md` with the tip details, code snippets, and resources.
+Each day has its own folder named `Tip_XXX` containing a `README.md` with the tip details, code snippets, and resources.
 
 ## Progress
 
-- [x] Day 001 - Avoiding Large Switch-Case Blocks
-- [ ] Day 002
+- [x] Tip 001 - Avoiding Large Switch-Case Blocks
+- [ ] Tip 002
+- [ ] Tip 003
 ...
-- [ ] Day 100
+- [ ] Tip 100
 
 (You can update this list as you go!)
 

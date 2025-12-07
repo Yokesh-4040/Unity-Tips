@@ -2,7 +2,7 @@ import os
 
 def create_project_structure():
     base_path = "."
-    template = """# Day {day}: [Tip Title]
+    template = """# Tip {day}: [Tip Title]
 
 ## Description
 [Description of the tip]
@@ -17,8 +17,8 @@ def create_project_structure():
 """
 
     for i in range(1, 101):
-        # Format folder name with leading zeros, e.g., Day_001, Day_099, Day_100
-        folder_name = f"Day_{i:03d}"
+        # Format folder name with leading zeros, e.g., Tip_001, Tip_099, Tip_100
+        folder_name = f"Tip_{i:03d}"
         folder_path = os.path.join(base_path, folder_name)
         
         # Create directory
