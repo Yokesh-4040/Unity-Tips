@@ -1,0 +1,10 @@
+Did you know you can add methods to enums in C#? Extension methods work with enums too!
+
+Instead of scattering direction logic across utility classes, you can extend your Direction enum with methods like .Opposite(), .ToVector(), or .RotateClockwise(). This keeps related functionality organized and makes your code more discoverable.
+
+I've documented practical examples here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_002/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #CleanCode #CSharp #ExtensionMethods #GameDev

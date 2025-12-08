@@ -1,0 +1,6 @@
+Many teams still use large switch-case blocks to manage different behaviours or actions. They work initially, but as the project grows, these blocks become harder to maintain and scale.
+A cleaner approach is to use an abstract base class and let each derived class handle its own implementation. This keeps the code modular, easier to extend, and more aligned with good architecture practices across Unity development.
+I’ve documented a simple example here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_001/README.md
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+#UnityTips #Unity #CleanCode #Architecture #OOP #DesignPatterns
