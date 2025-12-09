@@ -1,0 +1,89 @@
+# Repost & Quote Options for Tip 003 - ColorUsage Attribute
+
+## Option 1 - Short & Direct
+Stop showing alpha sliders when you don't need them! Unity's [ColorUsage] attribute gives you precise control over color pickers. Perfect for emissive materials and UI work.
+
+#UnityTips #GameDev
+
+---
+
+## Option 2 - Problem-Solution Format
+Your Unity Inspector has unnecessary alpha controls cluttering your color fields?
+
+[ColorUsage(false, false)] removes them.
+[ColorUsage(false, true)] adds HDR for bloom effects.
+
+Clean inspectors = fewer mistakes!
+
+#Unity #CleanCode
+
+---
+
+## Option 3 - Feature Highlight
+Did you know Unity's [ColorUsage] attribute can:
+• Enable HDR colors for emissive materials
+• Hide alpha when transparency isn't needed
+• Make your Inspector cleaner and more intuitive
+
+One line of code, huge workflow improvement!
+
+#UnityTips #GameDev
+
+---
+
+## Option 4 - Use Case Focus
+Working with emissive materials in Unity? Use [ColorUsage(false, true)] on your color fields to enable HDR values. Your bloom effects will thank you!
+
+#Unity #GameDev #VFX
+
+---
+
+## Option 5 - Before/After Style
+Before: public Color glowColor;
+(Limited to 0-1, alpha slider you don't need)
+
+After: [ColorUsage(false, true)] public Color glowColor;
+(HDR enabled, no alpha clutter)
+
+Small attribute, big difference!
+
+#UnityTips #CleanCode
+
+---
+
+## Option 6 - Quick Tip Format
+💡 Unity Quick Tip:
+
+Add [ColorUsage] to your Color fields to control:
+→ Alpha channel visibility
+→ HDR range support
+
+Makes your Inspector cleaner and prevents configuration errors.
+
+#Unity #GameDev
+
+---
+
+## Option 7 - Engagement Question
+How many of you knew about Unity's [ColorUsage] attribute?
+
+It's been hiding in plain sight, ready to make your color pickers smarter and your Inspector cleaner. Essential for anyone working with emissive materials or UI!
+
+#UnityTips #GameDev
+
+---
+
+## Option 8 - Single Line Hook
+Unity's [ColorUsage] attribute: the small detail that makes your Inspector 10x cleaner. #UnityTips #GameDev
+
+---
+
+## Usage Guidelines:
+
+- **Options 1-3**: Best for standalone posts or retweets with commentary
+- **Options 4-5**: Great for technical audiences who want code examples
+- **Option 6**: Perfect for quick tip threads or daily tip series
+- **Option 7**: Good for engagement and starting conversations
+- **Option 8**: Ideal for quote retweets or short-form platforms
+
+Mix and match based on platform and audience!

@@ -1,0 +1,10 @@
+Unity's [ColorUsage] attribute is a game-changer for controlling color pickers in the Inspector!
+
+You can enable HDR for emissive materials that need to glow, disable the alpha channel when transparency isn't needed, or combine both for advanced VFX. It's a small attribute that makes your inspector cleaner and prevents configuration errors.
+
+I've documented practical examples here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_003/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #CleanCode #GameDev #ColorUsage #InspectorTips

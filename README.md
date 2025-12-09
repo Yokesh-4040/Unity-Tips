@@ -11,8 +11,8 @@ Each day has its own folder named `Tip_XXX` containing a `README.md` with the ti
 ## Progress
 
 - [x] Tip 001 - Avoiding Large Switch-Case Blocks
-- [ ] Tip 002
-- [ ] Tip 003
+- [x] Tip 002 - Extending Enums with Extension Methods
+- [x] Tip 003 - Mastering ColorUsage Attribute
 ...
 - [ ] Tip 100
 
