@@ -13,6 +13,7 @@ Each day has its own folder named `Tip_XXX` containing a `README.md` with the ti
 - [x] Tip 001 - Avoiding Large Switch-Case Blocks
 - [x] Tip 002 - Extending Enums with Extension Methods
 - [x] Tip 003 - Mastering ColorUsage Attribute
+- [x] Tip 004 - Calculating the Closest Point on a Ray
 ...
 - [ ] Tip 100
 

@@ -1,0 +1,10 @@
+Ever needed to find the closest point on a ray to any position in 3D space? This fundamental vector math technique is essential for AI pathfinding, cable physics, and projectile tracking!
+
+By leveraging vector projection with the dot product, you can calculate exact proximity with just a few lines of code. This O(1) operation beats iterative sampling hands down and opens doors to elegant solutions for snap-to-line mechanics, distance checks, and spatial reasoning challenges.
+
+I've documented practical examples including AI path following, rope physics, and projectile prediction systems here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_004/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #GameDev #VectorMath #AIPathfinding #GamePhysics #CleanCode
