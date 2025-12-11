@@ -1,0 +1,12 @@
+Ever wondered why your kinematic rigidbody isn't detecting collisions with static walls or floors in Unity?
+
+By default, Unity skips collision detection between kinematic rigidbodies and static colliders for performance optimization. But if you need this functionality for custom character controllers, moving platforms, or kinematic projectiles, there's a simple fix: enable "Enable Kinematic Static Pairs" in your Project Settings under Physics (or Physics 2D).
+
+This project-wide setting unlocks collision events (OnCollisionEnter, OnCollisionStay, OnCollisionExit) between kinematic objects and static geometry, perfect for wall detection, environment interaction, and precise movement systems.
+
+I've documented practical examples and performance considerations here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_005/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #GameDev #Physics #UnityPhysics #GameProgramming
