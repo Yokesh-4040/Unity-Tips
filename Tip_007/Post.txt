@@ -1,0 +1,12 @@
+Debugging in Unity goes beyond console logging - meet Debug.Break()!
+
+While Debug.Log() tells you what happened, Debug.Break() pauses the Unity Editor at the exact moment it's called, letting you inspect your entire game state in real-time. Perfect for catching bugs as they happen, not after the fact.
+
+Use it conditionally to pause when specific problems occur - invalid states, unexpected values, performance drops, or collision issues. Combined with IDE debuggers, it gives you complete visibility into your game's behavior.
+
+I've documented practical examples including collision debugging, network validation, state machines, and performance monitoring here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_007/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #GameDev #Debugging #GameDevelopment #CleanCode

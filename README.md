@@ -14,6 +14,9 @@ Each day has its own folder named `Tip_XXX` containing a `README.md` with the ti
 - [x] Tip 002 - Extending Enums with Extension Methods
 - [x] Tip 003 - Mastering ColorUsage Attribute
 - [x] Tip 004 - Calculating the Closest Point on a Ray
+- [x] Tip 005 - Enabling Collisions Between Kinematic Rigidbodies and Static Colliders
+- [x] Tip 006 - Leveraging Transform.hasChanged for Efficient State Tracking
+- [x] Tip 007 - Mastering Debug.Break() for Effective Runtime Debugging
 ...
 - [ ] Tip 100
 

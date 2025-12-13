@@ -1,0 +1,12 @@
+Stop manually tracking transform changes in Unity - there's a built-in property for that!
+
+Transform.hasChanged is a boolean flag that Unity automatically sets to true whenever a GameObject's position, rotation, or scale changes. This simple property eliminates the need for storing and comparing previous transform values, making your code cleaner and more efficient.
+
+Perfect for optimizing UI updates, reducing network traffic, implementing dirty-flag patterns, and avoiding expensive calculations when objects haven't moved.
+
+I've documented practical examples and best practices here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_006/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #GameDev #Optimization #CleanCode #GameDevelopment
