@@ -1,0 +1,12 @@
+Make your Unity console debugging life more colorful with rich text markup!
+
+Your console doesn't have to be a wall of plain text. Unity supports HTML-like tags in debug messages - add colors, bold, italics, and size variations to create visual hierarchy and instantly spot critical information.
+
+Use `<color=red>` for errors, `<color=yellow>` for warnings, `<color=green>` for success messages, or hex codes for custom colors. Combine with `<b>` and `<i>` tags for maximum impact. Perfect for color-coding different systems, highlighting values, or creating severity-based logging.
+
+I've documented practical examples including a complete DebugHelper utility class, system-specific logging, performance profiling, and state machine visualization here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_008/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #GameDev #Debugging #CleanCode #GameDevelopment
