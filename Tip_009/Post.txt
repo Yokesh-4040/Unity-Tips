@@ -1,0 +1,10 @@
+Ever had a fast-moving bullet pass straight through a wall in your Unity game? That's the tunneling problem, and it can break player trust instantly.
+
+Unity's Continuous Collision Detection (CCD) solves this by sweeping colliders along their movement path instead of just checking at discrete points. With four different modes—Discrete, Continuous, Continuous Dynamic, and Continuous Speculative—you can balance performance with precision based on your needs. Perfect for projectiles, racing games, and any scenario where speed matters.
+
+I've documented practical examples and performance considerations here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_009/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #GameDev #Physics #CCD #CollisionDetection
