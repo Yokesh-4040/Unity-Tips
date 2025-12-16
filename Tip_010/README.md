@@ -1,10 +1,8 @@
 # #UNITY TIPS 010/100
 
-<img src="Tip0010.png" alt="Updating Numbers In Text" width="300" align="left" style="margin-right: 20px; margin-bottom: 20px;">
-
-<br>
-
 ## Updating Numbers in Text - Optimizing TextMeshPro Performance
+
+<img src="Tip0010.png" alt="Updating Numbers In Text" width="300" align="left" style="margin-right: 20px; margin-bottom: 20px;">
 
 If you've ever built a game with a score counter, health display, timer, or any other rapidly updating numeric UI element, you've probably written code like `scoreText.text = "Score: " + score.ToString()`. While this works functionally, it creates a significant amount of garbage allocation that can trigger frequent garbage collection pauses, especially when numbers update every frame.
 
