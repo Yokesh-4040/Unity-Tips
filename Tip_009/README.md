@@ -1,5 +1,8 @@
 # #UNITY TIPS 009/100
+
 <img src="Tip0009.png" alt="Continuous Collision Detection" width="300" align="left" style="margin-right: 20px; margin-bottom: 20px;">
+
+<br>
 
 ## Continuous Collision Detection - Preventing Fast-Moving Objects from Tunneling
 
