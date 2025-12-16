@@ -1,6 +1,6 @@
 # #UNITY TIPS 010/100
 
-<img src="Tip0010.png" alt="Updating Numbers In Text" width="500">
+<img src="Tip0010.png" alt="Updating Numbers In Text" width="300">
 
 ## Updating Numbers in Text - Optimizing TextMeshPro Performance
 
