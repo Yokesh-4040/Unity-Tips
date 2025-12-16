@@ -1,5 +1,7 @@
 # #UNITY TIPS 009/100
 
+![Continuous Collision Detection](Tip0009.png)
+
 ## Continuous Collision Detection - Preventing Fast-Moving Objects from Tunneling
 
 When developing physics-based games in Unity, one of the most frustrating issues you'll encounter is fast-moving objects passing through colliders without triggering collisions. This phenomenon, known as "tunneling" or "ghosting," occurs when an object moves so quickly between physics updates that it completely bypasses collision checks. A classic example is a high-speed projectile passing through a wall, or a rapidly moving character phasing through the ground.

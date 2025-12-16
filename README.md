@@ -19,6 +19,7 @@ Each day has its own folder named `Tip_XXX` containing a `README.md` with the ti
 - [x] Tip 007 - Mastering Debug.Break() for Effective Runtime Debugging
 - [x] Tip 008 - Colorful Debug Messages with Rich Text Markup
 - [x] Tip 009 - Continuous Collision Detection - Preventing Fast-Moving Objects from Tunneling
+- [x] Tip 010 - Updating Numbers in Text - Optimizing TextMeshPro Performance
 ...
 - [ ] Tip 100
 
