@@ -1,5 +1,4 @@
 # #UNITY TIPS 010/100
-
 <img src="Tip0010.png" alt="Updating Numbers In Text" width="300" align="left" style="margin-right: 20px; margin-bottom: 20px;">
 
 ## Updating Numbers in Text - Optimizing TextMeshPro Performance

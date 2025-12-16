@@ -1,12 +1,13 @@
 # #UNITY TIPS 009/100
-
-<img src="Tip0009.png" alt="Continuous Collision Detection" width="500">
+<img src="Tip0009.png" alt="Continuous Collision Detection" width="300" align="left" style="margin-right: 20px; margin-bottom: 20px;">
 
 ## Continuous Collision Detection - Preventing Fast-Moving Objects from Tunneling
 
 When developing physics-based games in Unity, one of the most frustrating issues you'll encounter is fast-moving objects passing through colliders without triggering collisions. This phenomenon, known as "tunneling" or "ghosting," occurs when an object moves so quickly between physics updates that it completely bypasses collision checks. A classic example is a high-speed projectile passing through a wall, or a rapidly moving character phasing through the ground.
 
 Unity's Continuous Collision Detection (CCD) system solves this critical problem by checking for collisions along the object's entire movement path between physics updates, rather than just at discrete points in time. Understanding when and how to use CCD is essential for creating robust physics interactions in your games.
+
+<br clear="left">
 
 ## The Problem: Discrete Collision Detection Limitations
 
