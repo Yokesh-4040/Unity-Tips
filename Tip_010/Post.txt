@@ -1,0 +1,10 @@
+Updating a score counter every frame? Using string concatenation like `text = "Score: " + score.ToString()` creates tons of garbage allocation that triggers frequent GC pauses and frame drops.
+
+TextMeshPro's SetText() method is a game-changer. It formats numbers with zero garbage allocation by using internal buffers instead of creating new strings. Simply use `SetText("Score: {0}", score)` and you'll eliminate approximately 2.4 MB of garbage per minute in a typical game with 10 updating UI elements. Perfect for score displays, health bars, timers, FPS counters, and any rapidly changing numeric text.
+
+I've documented practical examples, format specifiers, and performance benchmarks here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_010/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #GameDev #TextMeshPro #Performance #Optimization
