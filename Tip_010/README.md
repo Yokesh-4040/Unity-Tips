@@ -1,12 +1,14 @@
 # #UNITY TIPS 010/100
 
-<img src="Tip0010.png" alt="Updating Numbers In Text" width="300">
+<img src="Tip0010.png" alt="Updating Numbers In Text" width="300" align="left" style="margin-right: 20px; margin-bottom: 20px;">
 
 ## Updating Numbers in Text - Optimizing TextMeshPro Performance
 
 If you've ever built a game with a score counter, health display, timer, or any other rapidly updating numeric UI element, you've probably written code like `scoreText.text = "Score: " + score.ToString()`. While this works functionally, it creates a significant amount of garbage allocation that can trigger frequent garbage collection pauses, especially when numbers update every frame.
 
 TextMeshPro provides a powerful but often overlooked solution: the `SetText()` method. This method formats strings with numbers in a way that avoids unnecessary memory allocation, keeping the garbage collector happy and your game running smoothly. Understanding this optimization is essential for creating performant UI systems in Unity.
+
+<br clear="left">
 
 ## The Problem: String Concatenation and GC Allocation
 
