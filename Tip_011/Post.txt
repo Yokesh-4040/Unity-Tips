@@ -1,0 +1,12 @@
+Ever made changes in Unity via code only to watch them mysteriously vanish? You're not marking objects as dirty.
+
+Unity's serialization system doesn't automatically track every change - that would tank performance. When you modify objects through scripts (especially Editor tools), you MUST explicitly tell Unity something changed with EditorUtility.SetDirty(). Without it, your modifications might never be saved to disk.
+
+This is fundamental to building reliable Editor extensions, custom inspectors, and batch processing tools. Modern alternatives like Undo.RecordObject() and SerializedObject handle dirty marking automatically, but understanding when and how to use SetDirty() separates robust tools from buggy ones.
+
+I've documented practical examples, common patterns, and best practices here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_011/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #EditorScripting #GameDev #CleanCode #UnityEditor #DirtyFlag
