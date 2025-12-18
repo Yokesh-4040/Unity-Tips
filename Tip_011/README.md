@@ -2,9 +2,13 @@
 
 ## Mastering the Dirty Flag Pattern - Ensuring Your Changes Persist
 
+<img src="Tip011.png" alt="Dirty Flag Pattern" width="300" align="left" style="margin-right: 20px; margin-bottom: 20px;">
+
 Have you ever made changes to an object in the Unity Editor through a script, only to find those changes mysteriously vanish after a domain reload or when you exit Play Mode? You're not alone. Unity's serialization system needs explicit signals when data has been modified outside of the standard Inspector workflow. This is where the "dirty flag" pattern becomes essential.
 
 Understanding and properly using dirty flags is fundamental to writing reliable Editor tools and custom inspectors. Without marking objects as dirty, Unity assumes nothing has changed, and your modifications might never be saved to disk. This seemingly simple concept is the difference between robust Editor extensions and frustrating, unpredictable tools.
+
+<br clear="left">
 
 ## The Problem
 
