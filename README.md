@@ -21,6 +21,7 @@ Each day has its own folder named `Tip_XXX` containing a `README.md` with the ti
 - [x] Tip 009 - Continuous Collision Detection - Preventing Fast-Moving Objects from Tunneling
 - [x] Tip 010 - Updating Numbers in Text - Optimizing TextMeshPro Performance
 - [x] Tip 011 - Mastering the Dirty Flag Pattern - Ensuring Your Changes Persist
+- [x] Tip 012 - Run Once - Automatic Initialization Without GameObjects
 ...
 - [ ] Tip 100
 

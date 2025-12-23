@@ -1,0 +1,12 @@
+Still manually dragging "Manager" prefabs into every scene? Still forgetting to initialize critical systems? There's a better way.
+
+Unity's [RuntimeInitializeOnLoad] attribute executes static methods automatically when your app starts - no GameObjects, no manual setup, no initialization scenes. Just mark your method and it runs once, guaranteed, before anything else needs it. Perfect for singletons, service locators, analytics, configuration loading, and any cross-scene system.
+
+The timing is configurable (BeforeSceneLoad, AfterSceneLoad, SubsystemRegistration), execution order is explicit within each class, and it works identically in editor and builds. This is how production-ready Unity projects handle initialization.
+
+I've documented the complete pattern with 7 core use cases, timing diagrams, and best practices here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_012/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #GameDev #CleanCode #Initialization #RuntimeInitializeOnLoad
