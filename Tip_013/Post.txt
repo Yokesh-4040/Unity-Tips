@@ -1,0 +1,12 @@
+Need random points on a circle or sphere? There's a critical detail most developers miss.
+
+Unity's Random.insideUnitCircle and Random.onUnitSphere handle the complex math of uniform distribution. But here's the gotcha: if you want points ON a circle's edge (not inside it), you MUST normalize before scaling. Otherwise you'll get points scattered throughout the interior.
+
+This matters for: enemy spawners, particle systems, orbital mechanics, explosion debris, procedural scatter, shield effects—anywhere you need natural-looking randomization in 2D or 3D space.
+
+I've documented the math behind it, 8 production examples, edge cases to handle, and common distribution patterns here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_013/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #GameDev #ProceduralGeneration #CleanCode #GameProgramming

@@ -22,6 +22,8 @@ Each day has its own folder named `Tip_XXX` containing a `README.md` with the ti
 - [x] Tip 010 - Updating Numbers in Text - Optimizing TextMeshPro Performance
 - [x] Tip 011 - Mastering the Dirty Flag Pattern - Ensuring Your Changes Persist
 - [x] Tip 012 - Run Once - Automatic Initialization Without GameObjects
+- [x] Tip 013 - Generating Random Points on Circles and Spheres
+- [x] Tip 014 - Unlocking Inspector Debug Mode - See Everything Under the Hood
 ...
 - [ ] Tip 100
 

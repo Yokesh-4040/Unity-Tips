@@ -1,0 +1,14 @@
+Stop littering your code with Debug.Log statements. There's a better way.
+
+Right-click Unity's Inspector tab and switch to Debug mode. Instantly see ALL variables in your scripts—private fields, properties, computed values, cached references, even Unity's internal component data.
+
+No more guessing if that Rigidbody is assigned. No more logging state machine transitions. No more temporary debug code that clutters your codebase. Just real-time visibility into everything happening under the hood.
+
+Essential for: verifying null references, monitoring state machines, tracking object pools, debugging coroutines, inspecting singleton initialization—any time you need to see what's really going on inside your objects.
+
+I've documented 7 production examples, advanced multi-inspector workflows, and the differences between Debug vs. Debug-Internal modes here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_014/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #GameDev #Debugging #CleanCode #EditorTools
