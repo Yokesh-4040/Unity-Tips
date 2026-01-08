@@ -1,0 +1,12 @@
+Stop writing for loops when you don't need the index.
+
+Using foreach instead of for loops eliminates an entire class of bugs-off-by-one errors, index typos, unnecessary cognitive load. When you write foreach (Enemy enemy in enemies), the intent is crystal clear: you're processing all elements sequentially. No noise, no boilerplate, no room for index-related mistakes.
+
+The choice between iteration patterns isn't about preference-it's about communicating intent. Use foreach when you only need elements. Use for when you need indices. Let the pattern itself document what you're doing.
+
+I've documented practical examples and performance considerations here:
+https://lnkd.in/gpP-ybdw
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #CleanCode #Unity3D #CSharp #Foreach #CodeReadability

@@ -24,6 +24,7 @@ Each day has its own folder named `Tip_XXX` containing a `README.md` with the ti
 - [x] Tip 012 - Run Once - Automatic Initialization Without GameObjects
 - [x] Tip 013 - Generating Random Points on Circles and Spheres
 - [x] Tip 014 - Unlocking Inspector Debug Mode - See Everything Under the Hood
+- [x] Tip 015 - Traversing Lists - Choosing the Right Iteration Pattern
 ...
 - [ ] Tip 100
 
