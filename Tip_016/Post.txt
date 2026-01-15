@@ -1,0 +1,10 @@
+Stop writing `if (list != null && list.Count > 0)` everywhere.
+
+C# property patterns let you express the same check as `if (list is { Count: > 0 })`-null-safe, concise, and crystal clear. The pattern matching syntax handles the null check implicitly while declaring exactly what shape of data you expect. It's not just shorter code; it's a shift from procedural checking to declarative intent.
+
+I've documented practical examples and the full syntax breakdown here:
+https://github.com/Yokesh-4040/Unity-Tips/blob/main/Tip_016/README.md
+
+Credit to Binary Impact GmbH for creating these thoughtful and well-designed trading cards.
+
+#UnityTips #Unity #CSharp #PatternMatching #CleanCode #GameDev #Unity3D
